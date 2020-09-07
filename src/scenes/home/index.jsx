@@ -1,18 +1,18 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import { StatusBar } from 'expo-status-bar'
 
-export default function App() {
+const Home = () => {
   return (
-    <View style={styles.container}>
-      <Text>My Season</Text>
-      <StatusBar style="auto" />
+    <View style={styles.root}>
+      <Text>Hello world</Text>
     </View>
   )
 }
 
+export default Home
+
 const styles = StyleSheet.create({
-  container: {
+  root: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
